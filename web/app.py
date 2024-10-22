@@ -3,7 +3,7 @@ import requests
 
 urls = ("/", "index")
 app = web.application(urls, globals())
-render = web.template.render('templates/')
+render = web.template.render('./templates/')
 
 class index:
     def GET(self):
